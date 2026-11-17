@@ -1,6 +1,90 @@
-START_HP 10
-SCENE Replace this file with your own story.
+START_HP 15
+SCENE You match with someone at 2am. They have a dog in every photo.
 HP 0
 LOOT 0
 ITEM none
-CHOICES 0
+CHOICES 3
+LABEL Reply wyd
+  SCENE They reply nm u at 2:47am. The vibes are immaculate and unlabeled.
+  HP -4
+  LOOT 5
+  ITEM Late Night Texts
+  CHOICES 1
+  LABEL Keep it casual
+    SCENE Three months of u up. Nobody says what this is.
+    HP -4
+    LOOT 4
+    ITEM Their Hoodie
+    CHOICES 1
+    LABEL Ask what are we
+      SCENE They say why do we need labels. You cry in a grocery store parking lot.
+      HP -8
+      LOOT 3
+      ITEM none
+      CHOICES 0
+LABEL Ask them on a real date
+  SCENE You suggest coffee on Saturday. In daylight. Like an adult.
+  HP 0
+  LOOT 2
+  ITEM none
+  CHOICES 2
+  LABEL Admit you are nervous
+    SCENE They admit they are nervous too. The ice breaks.
+    HP -2
+    LOOT 3
+    ITEM Coffee Receipt
+    CHOICES 1
+    LABEL Plan a second date
+      SCENE Second date. They remembered your coffee order.
+      HP 0
+      LOOT 3
+      ITEM none
+      CHOICES 1
+      LABEL Meet their friends
+        SCENE Their friends grill you for an hour. You survive.
+        HP -2
+        LOOT 2
+        ITEM Group Chat Invite
+        CHOICES 1
+        LABEL Have the talk
+          SCENE You ask what this is. They already had an answer.
+          HP 1
+          LOOT 3
+          ITEM none
+          CHOICES 1
+          LABEL Make it official
+            SCENE It is official. Communication beat the situationship.
+            HP 0
+            LOOT 5
+            ITEM Relationship Status
+            CHOICES 0
+  LABEL Play it cool
+    SCENE You wait three days to text back so you do not look desperate.
+    HP -1
+    LOOT 1
+    ITEM none
+    CHOICES 1
+    LABEL Wait for them to text first
+      SCENE They wait too. Neither of you blinks.
+      HP -1
+      LOOT 0
+      ITEM none
+      CHOICES 1
+      LABEL Check their Instagram
+        SCENE They posted a beach pic with someone new.
+        HP -2
+        LOOT 0
+        ITEM none
+        CHOICES 1
+        LABEL Accept it
+          SCENE Lesson learned. Playing it cool is just playing yourself.
+          HP 0
+          LOOT 1
+          ITEM Self Respect
+          CHOICES 0
+LABEL Leave them on read
+  SCENE You go to bed. Peace is also an ending.
+  HP 1
+  LOOT 1
+  ITEM Good Sleep
+  CHOICES 0
